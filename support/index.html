@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FitFlame Support</title>
+    <meta name="description" content="Get help with FitFlame, report a problem, or send a privacy request." />
+    <meta name="theme-color" content="#050a17" />
+    <link rel="icon" type="image/png" href="/assets/favicon.png" />
+    <link rel="apple-touch-icon" href="/assets/icon-180.png" />
+    <link rel="stylesheet" href="/assets/site.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="logo" href="/" aria-label="FitFlame home"><img src="/assets/favicon.png" alt="" width="34" height="34" /><span>FitFlame</span></a>
+        <nav class="site-nav" aria-label="Main">
+          <a href="/support/" aria-current="page">Support</a>
+          <a href="/privacy/">Privacy</a>
+          <a href="/terms/">Terms</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap page">
+      <div class="page-head">
+        <p class="eyebrow">Support</p>
+        <h1>How can we help?</h1>
+        <p class="muted">Report a problem, ask a question, or send a privacy request. We usually reply within a few days.</p>
+      </div>
+
+      <div class="support-grid">
+        <section class="card" aria-labelledby="contact-title">
+          <h2 id="contact-title" style="font-size: 24px; margin-bottom: 20px">Contact us</h2>
+          <!-- Messages are delivered by Formspree; the inbox address never appears on this site. -->
+          <form id="contact" class="form" action="https://formspree.io/f/mvkkadnr" method="POST">
+            <input type="hidden" name="_subject" value="FitFlame support request" />
+            <input type="hidden" name="app" value="FitFlame" />
+            <!-- Spam trap: people never see or fill this field. -->
+            <input type="text" name="_gotcha" class="hidden-field" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+            <div class="field">
+              <label for="topic">Topic</label>
+              <select id="topic" name="topic" required>
+                <option>Problem with the app</option>
+                <option>Subscription or billing</option>
+                <option>Privacy request</option>
+                <option>Feedback or idea</option>
+                <option>Something else</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="email">Your email <span class="hint">so we can reply</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="name">Name <span class="hint">(optional)</span></label>
+              <input id="name" name="name" type="text" autocomplete="name" />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required placeholder="Tell us what happened. For app problems, include your iPhone model and what you were doing."></textarea>
+            </div>
+            <div id="status" role="status" aria-live="polite"></div>
+            <button class="button" type="submit">Send message</button>
+            <p class="muted" style="font-size: 14px; margin: 0">
+              By sending this form you agree we can use your email to reply to you. See our
+              <a href="/privacy/">Privacy Policy</a>.
+            </p>
+          </form>
+        </section>
+
+        <section class="faq" aria-labelledby="faq-title">
+          <h2 id="faq-title" style="font-size: 24px; margin-bottom: 20px">Common questions</h2>
+          <details>
+            <summary>How do I cancel my subscription?</summary>
+            <p>
+              Subscriptions are managed by Apple. Open the Settings app on your iPhone, tap your name, then Subscriptions,
+              choose FitFlame and tap Cancel Subscription. If you're on the free trial, cancel at least 24 hours before it
+              ends to avoid being charged. You keep access until the end of the period you've paid for.
+            </p>
+          </details>
+          <details>
+            <summary>How do I get a refund?</summary>
+            <p>
+              Purchases are made through the App Store, so Apple handles refunds. Request one at
+              <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.
+            </p>
+          </details>
+          <details>
+            <summary>I subscribed, but FitFlame still shows the paywall.</summary>
+            <p>
+              Open FitFlame's Settings and tap Restore purchases, using the same Apple Account you subscribed with. If it
+              still doesn't unlock, send us a message with the topic "Subscription or billing".
+            </p>
+          </details>
+          <details>
+            <summary>How do I keep my fits when I switch phones?</summary>
+            <p>
+              Tap Sign in with Apple in FitFlame's Settings. Your fits are backed up and come back when you sign in on
+              your new phone. Without signing in, fits are saved only on this phone and are lost if you delete the app.
+            </p>
+          </details>
+          <details>
+            <summary>Why does FitFlame want my location?</summary>
+            <p>
+              Your judge checks the weather where you are, so the roast knows what your outfit is up against. FitFlame
+              uses your approximate location only, and only for weather. Prefer not to share it? Pick a city in
+              FitFlame's Settings instead.
+            </p>
+          </details>
+          <details>
+            <summary>My judge said something that wasn't okay.</summary>
+            <p>
+              Judges are supposed to roast the clothes, never the person. If a roast crossed the line, send us a message
+              with what was said and which judge said it. It helps us make FitFlame better.
+            </p>
+          </details>
+          <details>
+            <summary>It says I've reached today's roast limit.</summary>
+            <p>
+              To keep FitFlame running smoothly for everyone, there's a generous daily limit on roasts. It resets the next
+              day.
+            </p>
+          </details>
+          <details>
+            <summary>How do I delete my account and data?</summary>
+            <p>
+              In FitFlame, open Settings and tap Delete account. This permanently deletes your account and any fits backed
+              up to our servers. To remove fits saved on your phone, use Delete all fits or delete the app. Deleting your
+              account doesn't cancel your subscription; cancel it in your iPhone's Settings.
+            </p>
+          </details>
+          <details>
+            <summary>How do I ask about my personal data?</summary>
+            <p>
+              Choose "Privacy request" in the form. If you signed in with Apple, send it from the email you used so we can
+              find your account. Read more in our <a href="/privacy/">Privacy Policy</a>.
+            </p>
+          </details>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <span>© 2026 FitFlame</span>
+        <nav aria-label="Footer">
+          <a href="/support/">Support</a>
+          <a href="/privacy/">Privacy Policy</a>
+          <a href="/terms/">Terms of Use</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script>
+      // Sends the form without leaving the page. Without JavaScript, the form still posts and
+      // Formspree shows its own confirmation page.
+      (function () {
+        const form = document.getElementById("contact");
+        const status = document.getElementById("status");
+        const button = form.querySelector("button[type=submit]");
+        const show = (kind, text) => {
+          status.className = "notice " + kind;
+          status.textContent = text;
+        };
+
+        form.addEventListener("submit", async (event) => {
+          event.preventDefault();
+          const data = new FormData(form);
+          data.set("_subject", "FitFlame: " + data.get("topic"));
+          button.disabled = true;
+          button.textContent = "Sending…";
+          try {
+            const response = await fetch(form.action, {
+              method: "POST",
+              headers: { Accept: "application/json" },
+              body: data,
+            });
+            if (!response.ok) throw new Error("Formspree returned " + response.status);
+            form.reset();
+            show("success", "Thanks! Your message was sent. We'll reply by email.");
+          } catch {
+            show("error", "Your message didn't send. Please try again in a moment.");
+          } finally {
+            button.disabled = false;
+            button.textContent = "Send message";
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>
