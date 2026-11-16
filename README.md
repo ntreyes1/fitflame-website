@@ -24,3 +24,20 @@ which correct generator boilerplate that doesn't match how FitFlame works:
 - Minors: 13, not 18, to match the Terms of Use.
 - Personal information list: add outfit photos.
 - Typos from the generator inputs ("o save", double periods).
+
+## Updating the Terms
+
+The Terms come from Termly the same way (between the `TERMS AND CONDITIONS` markers). After a re-export,
+re-apply these fixes:
+
+- Email: Termly used `nick@fitflame.com`; the real address is `nick@getfitflame.com`.
+- Address: remove the `__________` street placeholder (Chicago, IL only) and the "company registered in Illinois"
+  claim until an LLC exists.
+- Contribution license (sections 2 and 12): Termly grants an unlimited, perpetual right to sell and use uploads in
+  ads. Replace with the limited "solely to operate and provide the Services" license, which matches the Privacy
+  Policy, and state that contributions are private (not viewable by other users).
+- Refunds: "All sales are final and no refund will be issued" contradicts Apple's refund process; point to Apple.
+- User registration: no passwords or usernames; describe the automatic account and Sign in with Apple.
+- Purchases: remove shipping fees and card details; Apple charges payment and taxes.
+- User data: remove "we perform regular routine backups" (not guaranteed on our plan).
+- Typos: "one (1) years", "informal negotiations binding arbitration".
